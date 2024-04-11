@@ -1,0 +1,20 @@
+{
+"product_id": "<placeholder>",
+"url": "<placeholder>",
+"questions": [
+{
+"qa_id": "<placeholder, example, p_’product_id’_qa_01>",
+"question": "<placeholder>",
+"question_category": "<placeholder>",
+"short_answer": "<placeholder>",
+"long_answer": "<placeholder>"
+},
+{
+"qa_id": "<placeholder, example, p_’product_id’_qa_50>",
+"question": "<placeholder>",
+"question_category": "<placeholder>",
+"short_answer": "<placeholder>",
+"long_answer": "<placeholder>"
+}
+]
+}

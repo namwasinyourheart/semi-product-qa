@@ -1,0 +1,90 @@
+{
+    "product_id": "dtdd-iphone-12",
+    "url": "https://thegioididong.com/dtdd/iphone-12",
+    "questions": [
+        {
+            "qa_id": "p_dtdd-iphone-12_qa_01",
+            "question": "Điện thoại iPhone 12 64GB có thiết kế như thế nào?",
+            "question_category": "thông tin chung",
+            "short_answer": "Nguyên khối",
+            "long_answer": "Điện thoại iPhone 12 64GB có thiết kế nguyên khối với khung nhôm và mặt lưng kính cường lực."
+        },
+        {
+            "qa_id": "p_dtdd-iphone-12_qa_02",
+            "question": "Giá của Điện thoại iPhone 12 64GB là bao nhiêu?",
+            "question_category": "thông tin chung",
+            "short_answer": "12.090.000₫ *",
+            "long_answer": "Giá hiện tại của Điện thoại iPhone 12 64GB là 12.090.000₫, giảm 18% so với giá gốc."
+        },
+        {
+            "qa_id": "p_dtdd-iphone-12_qa_03",
+            "question": "Màn hình của Điện thoại iPhone 12 64GB sử dụng công nghệ gì?",
+            "question_category": "thông số kỹ thuật",
+            "short_answer": "OLED",
+            "long_answer": "Màn hình của Điện thoại iPhone 12 64GB sử dụng công nghệ màn hình OLED."
+        },
+        {
+            "qa_id": "p_dtdd-iphone-12_qa_04",
+            "question": "Camera sau của Điện thoại iPhone 12 64GB có những tính năng gì?",
+            "question_category": "thông số kỹ thuật",
+            "short_answer": "Zoom quang học, Zoom kỹ thuật số, Xóa phông, Tự động lấy nét (AF), Trôi nhanh thời gian (Time Lapse), Toàn cảnh (Panorama), Smart HDR 3, Quay chậm (Slow Motion), Nhận diện khuôn mặt, Góc siêu rộng (Ultrawide), Góc rộng (Wide), Deep Fusion, Chống rung quang học (OIS), Ban đêm (Night Mode)",
+            "long_answer": "Camera sau của Điện thoại iPhone 12 64GB có nhiều tính năng như zoom quang học, zoom kỹ thuật số, xóa phông, tự động lấy nét, trôi nhanh thời gian, toàn cảnh, smart HDR 3, quay chậm, nhận diện khuôn mặt, góc siêu rộng, góc rộng, deep fusion, chống rung quang học và chụp ảnh ban đêm."
+        },
+        {
+            "qa_id": "p_dtdd-iphone-12_qa_05",
+            "question": "Điện thoại iPhone 12 64GB có hỗ trợ mạng di động nào?",
+            "question_category": "kết nối",
+            "short_answer": "Hỗ trợ 5G",
+            "long_answer": "Điện thoại iPhone 12 64GB hỗ trợ mạng di động 5G."
+        },
+        {
+            "qa_id": "p_dtdd-iphone-12_qa_06",
+            "question": "Dung lượng pin của Điện thoại iPhone 12 64GB là bao nhiêu?",
+            "question_category": "pin & sạc",
+            "short_answer": "2815 mAh",
+            "long_answer": "Dung lượng pin của Điện thoại iPhone 12 64GB là 2815 mAh."
+        },
+        {
+            "qa_id": "p_dtdd-iphone-12_qa_07",
+            "question": "Điện thoại iPhone 12 64GB có khả năng chống nước và bụi không?",
+            "question_category": "tiện ích",
+            "short_answer": "IP68",
+            "long_answer": "Điện thoại iPhone 12 64GB có khả năng chống nước và bụi với chuẩn IP68."
+        },
+        {
+            "qa_id": "p_dtdd-iphone-12_qa_08",
+            "question": "Thiết bị này có hỗ trợ ghi âm không?",
+            "question_category": "tiện ích",
+            "short_answer": "Có, ghi âm có microphone chuyên dụng chống ồn",
+            "long_answer": "Điện thoại iPhone 12 64GB có hỗ trợ ghi âm với microphone chuyên dụng chống ồn."
+        },
+        {
+            "qa_id": "p_dtdd-iphone-12_qa_09",
+            "question": "Điện thoại iPhone 12 64GB có hỗ trợ sạc không dây không?",
+            "question_category": "pin & sạc",
+            "short_answer": "Có, sạc không dây MagSafe",
+            "long_answer": "Điện thoại iPhone 12 64GB có hỗ trợ sạc không dây MagSafe."
+        },
+        {
+            "qa_id": "p_dtdd-iphone-12_qa_10",
+            "question": "Màn hình của Điện thoại iPhone 12 64GB có độ phân giải bao nhiêu?",
+            "question_category": "thông số kỹ thuật",
+            "short_answer": "Super Retina XDR (1170 x 2532 Pixels)",
+            "long_answer": "Màn hình của Điện thoại iPhone 12 64GB có độ phân giải Super Retina XDR (1170 x 2532 Pixels)."
+        },
+        {
+            "qa_id": "p_dtdd-iphone-12_qa_11",
+            "question": "Camera trước của Điện thoại iPhone 12 64GB có độ phân giải bao nhiêu?",
+            "question_category": "thông số kỹ thuật",
+            "short_answer": "12 MP",
+            "long_answer": "Camera trước của Điện thoại iPhone 12 64GB có độ phân giải 12 MP."
+        },
+        {
+            "qa_id": "p_dtdd-iphone-12_qa_12",
+            "question": "Điện thoại iPhone 12 64GB có hỗ trợ kết nối Wi-Fi không?",
+            "question_category": "kết nối",
+            "short_answer": "Có, Wi-Fi 802.11 a/b/g/n/ac/ax",
+            "long_answer": "Điện thoại iPhone 12 64GB có hỗ trợ kết nối Wi-Fi với chuẩn 802.11 a/b/g/n/ac/ax."
+        }
+    ]
+}

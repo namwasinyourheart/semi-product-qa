@@ -1,0 +1,63 @@
+Please act as a data syntheizer.
+
+Your task is to create a high quality dataset for the task of question answering over table in the domain of e-commerce for Vietnamese (Vietnamese e-commerece TableQA). The task has as input only a question of customer and the output is the answer to that question. To solve the task requires two steps: first retrieve the tables related to the question from database and next, process that retrieved relevant table to produce the answer.
+
+You will be provided a JSON content PRODUCT_DATA of a product including large fields such as: “product_id”, "url", "tên sản phẩm", “tất cả màu sắc”, “giá”,  “thông tin chung”, “thông số kỹ thuật”, “tiện ích”, “đánh giá”. This JSON content can form a table containing product data to serve the task. 
+Format of PRODUCT_DATA at the top level is like the following:
+{
+    "product_id": "<placeholder>",
+    "url": "<placeholder>",
+    "tên sản phẩm": "<placeholder>",
+    "tất cả màu sắc": "<placeholder>",
+    "giá": "<placeholder>",
+    "thông tin chung": "<placeholder>",
+    "thông số kỹ thuật": "<placeholder>",
+    "tiện ích": "<placeholder>",
+    "đánh giá": "<placeholder>"
+}
+
+
+Please create at least 50 pairs of QUESTIONs and ANSWERs in Vietnamese for the Vietnamese e-commerce TableQA task based on the given PRODUCT_DATA and following instructions.
+
+You have principles to do this.
+- Possible question categories include: “thông tin chung” (“giá”, “thiết kế”, “kích thước”, "khối lượng", etc.), “thông số kỹ thuật”, tiện ích”, "đánh giá”. Each question catogry must have at least 1 pair of question and answer.
+- To avoid ambiguity, not knowing which product in the database this question is about, the question needs to contain the name of the product because the input of task is only a question of customer and no table.
+- Do not ask for information when its value in PRODUCT_DATA is "null".
+- You need to generate 2 answers for each question: a short answer, which is just the span extracted from the PRODUCT_DATA and does not contain any additional words, and a long answer, which is generated as a free-style long containing the span extracted from the PRODUCT_DATA.
+- Ensure the questions generated can be answered using information from the PRODUCT_DATA.
+- Generate as many questions as possible to exploit all the information from PRODUCT_DATA and cover every question categories.
+- Questions generated need to be creativity and diverse in how they are asked.
+
+Your output should be in JSON format as follows:
+{
+"product_id": "<placeholder>",
+"url": "<placeholder>",
+"questions": [
+{
+"qa_id": "<placeholder, example, p_’product_id’_qa_01>",
+"question": "<placeholder, must contain ’tên sản phẩm’>",
+"question_category": "<placeholder>",
+"short_answer": "<placeholder>",
+"long_answer": "<placeholder>"
+},
+{
+"qa_id": "<placeholder, example, p_’product_id’_qa_50>",
+"question": "<placeholder, must contain ’tên sản phẩm’>",
+"question_category": "<placeholder>",
+"short_answer": "<placeholder>",
+"long_answer": "<placeholder>"
+}
+]
+}
+
+If you are given a number of questions that have already been generated QUESTIONS_CREATED, please continue creating more questions in the order that follows the last QUESTIONS_CREATED question, avoid repeating QUESTIONS_CREATED and follow all principles.
+If QUESTIONS_CREATED is EMPTY, you will have to start creating the first question.
+
+The following is the PRODUCT_DATA you are provided:
+{product_data}
+
+The following is the QUESTIONS_CREATED:
+{questions_created}
+
+Again, you must follow all instructions. You will get rewards if you follow all the instructions, otherwise you will be penalized.
+I’m going to tip $1000 for a better response!

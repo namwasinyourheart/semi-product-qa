@@ -1,0 +1,66 @@
+The following is an example of a valid output for an example PRODUCT_DATA:
+
+{"product_id": "dtdd-xiaomi-14", "url": "https://thegioididong.com/dtdd/xiaomi-14", "tên sản phẩm": "Điện thoại Xiaomi 14 5G 512GB", "tất cả màu sắc": ["Xanh lá", "Đen", "Trắng"], "giá": {"giá hiện tại": "22.490.000₫", "giá gốc": "24.490.000₫", "phần trăm giảm giá": "8%", "khuyến mãi áp dụng đến": "Giá và khuyến mãi dự kiến áp dụng đến 23:00 | 01/05"}, "thông tin chung": {"Thiết kế": "Nguyên khối", "Chất liệu": "Khung kim loại & Mặt lưng kính", "Kích thước, khối lượng": "Dài 152.8 mm - Ngang 71.5 mm - Dày 8.2 mm - Nặng 193 g", "Thời điểm ra mắt": "03/2024", "Hãng": "Xiaomi"}, "thông số kỹ thuật": {"Màn hình": {"Công nghệ màn hình": "AMOLED", "Độ phân giải": "1.5K (1200 x 2670 Pixels)", "Màn hình rộng": "6.36 inch - Tần số quét 120 Hz", "Độ sáng tối đa": "3000 nits", "Mặt kính cảm ứng": "Kính cường lực Corning Gorilla Glass Victus"}, "Camera sau": {"Độ phân giải": "Chính 50 MP & Phụ 50 MP, 50 MP", "Quay phim": ["HD 720p@960fps", "HD 720p@480fps", "HD 720p@30fps", "HD 720p@240fps", "HD 720p@120fps", "FullHD 1080p@960fps", "FullHD 1080p@60fps", "FullHD 1080p@30fps", "FullHD 1080p@240fps", "FullHD 1080p@120fps", "8K 4320p@24fps", "4K 2160p@60fps", "4K 2160p@30fps", "4K 2160p@24fps"], "Đèn Flash": "Có", "Tính năng": ["Ảnh Raw", "Zoom quang học", "Zoom kỹ thuật số", "Xóa phông", "Trôi nhanh thời gian (Time Lapse)", "Toàn cảnh (Panorama)", "Tilt-shift", "Siêu độ phân giải", "Siêu trăng", "Siêu cận (Macro)", "Quét tài liệu", "Quay chậm (Slow Motion)", "Phơi sáng", "Làm đẹp", "HDR", "Góc siêu rộng (Ultrawide)", "Google Lens", "Chụp hẹn giờ", "Chống rung quang học (OIS)", "Chế độ đạo diễn", "Chân dung đêm", "Chuyên nghiệp (Pro)", "Bộ lọc màu", "Ban đêm (Night Mode)", "AI Camera", "Xiaomi ProFocus"]}, "Camera trước": {"Độ phân giải": "32 MP", "Tính năng": ["Xóa phông", "Trôi nhanh thời gian (Time Lapse)", "Toàn cảnh (Panorama)", "Quay video HD", "Quay video Full HD", "Quay video 4K", "Quay chậm (Slow Motion)", "Làm đẹp", "Hiệu ứng Bokeh", "HDR", "Flash màn hình", "Chụp đêm", "Chụp hẹn giờ", "Bộ lọc màu"]}, "Hệ điều hành & CPU": {"Hệ điều hành": "Android 14", "Chip xử lý (CPU)": "Snapdragon 8 Gen 3", "Tốc độ CPU": "1 nhân 3.3 GHz, 3 nhân 3.2 GHz, 3 nhân 3 GHz & 2 nhân 2.3 GHz", "Chip đồ họa (GPU)": "Adreno 750"}, "Bộ nhớ & Lưu trữ": {"RAM": "12 GB", "Dung lượng lưu trữ": "512 GB", "Dung lượng còn lại (khả dụng) khoảng": "489 GB", "Danh bạ": "Không giới hạn"}, "Kết nối": {"Mạng di động": "Hỗ trợ 5G", "SIM": "2 Nano SIM", "Wifi": ["Wi-Fi MIMO", "Wi-Fi hotspot", "Wi-Fi Direct", "Wi-Fi 7", "Wi-Fi 6"], "GPS": ["NavIC", "GLONASS", "GALILEO", "BEIDOU"], "Bluetooth": "v5.4", "Cổng kết nối/sạc": "Type-C", "Jack tai nghe": "Type-C", "Kết nối khác": ["OTG", "NFC", "Hồng ngoại"]}, "Pin & Sạc": {"Dung lượng pin": "4610 mAh", "Loại pin": "Li-Po", "Hỗ trợ sạc tối đa": "90 W", "Sạc kèm theo máy": "90 W", "Công nghệ pin": ["Tiết kiệm pin", "Sạc pin nhanh", "Sạc ngược không dây", "Sạc không dây"]}}, "tiện ích": {"Bảo mật nâng cao": "Mở khoá vân tay dưới màn hình\nMở khoá khuôn mặt", "Tính năng đặc biệt": ["Công nghệ TrueColor", "Ứng dụng kép (Nhân bản ứng dụng)", "Đo nhịp tim", "Âm thanh Hi-Res Audio", "Âm thanh Dolby Atmos", "Trợ lý ảo Google Assistant", "Thu nhỏ màn hình sử dụng một tay", "Mở rộng bộ nhớ RAM", "Màn hình luôn hiển thị AOD", "Không gian thứ hai", "Khoá ứng dụng", "Hệ thống làm mát Xiaomi IceLoop", "HDR10+", "HDR10", "DCI-P3", "Công nghệ hình ảnh Dolby Vision", "Chạm 2 lần tắt/sáng màn hình"], "Kháng nước, bụi": "IP68", "Ghi âm": "Ghi âm mặc định\nGhi âm cuộc gọi", "Xem phim": ["WEBM", "MP4", "MKV", "3GP"], "Nghe nhạc": ["WAV", "OGG", "MP3", "FLAC", "AWB", "APE", "AMR", "AAC"]}, "đánh giá": {"điểm đánh giá trung bình": "3", "số lượng đánh giá": "1"}}
+
+{
+  "product_id": "dtdd-xiaomi-14",
+  "url": "https://thegioididong.com/dtdd/xiaomi-14",
+  "questions": [
+    {
+      "qa_id": "p_dtdd-xiaomi-14_qa_01",
+      "question": "Điện thoại Xiaomi 14 5G 512GB sử dụng công nghệ màn hình gì?",
+      "question_category": "thông số kỹ thuật",
+      "short_answer": "AMOLED.",
+      "long_answer": "Điện thoại Xiaomi 14 5G 512GB sử dụng công nghệ màn hình AMOLED, mang lại trải nghiệm hình ảnh sắc nét và sống động."
+    },
+    {
+      "qa_id": "p_dtdd-xiaomi-14_qa_02",
+      "question": "Màn hình của điện thoại Xiaomi 14 5G 512GB có kích thước bao nhiêu inch?",
+      "question_category": "thông số kỹ thuật",
+      "short_answer": "6.36 inch.",
+      "long_answer": "Màn hình của điện thoại Xiaomi 14 5G 512GB có kích thước 6.36 inch, kích thước lý tưởng cho việc xem phim và chơi game."
+    },
+    {
+      "qa_id": "p_dtdd-xiaomi-14_qa_03",
+      "question": "Camera sau của điện thoại Xiaomi 14 5G 512GB có tính năng gì?",
+      "question_category": "thông số kỹ thuật",
+      "short_answer": "Zoom quang học, Zoom kỹ thuật số, Chống rung quang học (OIS), HDR, AI Camera và nhiều tính năng khác.",
+      "long_answer": "Camera sau của điện thoại Xiaomi 14 5G 512GB có nhiều tính năng hữu ích như Zoom quang học, Zoom kỹ thuật số, Chống rung quang học (OIS), HDR, AI Camera và nhiều tính năng khác, giúp người dùng chụp ảnh chất lượng cao và đa dạng."
+    },
+    {
+      "qa_id": "p_dtdd-xiaomi-14_qa_04",
+      "question": "Camera trước của điện thoại Xiaomi 14 5G 512GB có độ phân giải bao nhiêu?",
+      "question_category": "thông số kỹ thuật",
+      "short_answer": "32 MP.",
+      "long_answer": "Camera trước của điện thoại Xiaomi 14 5G 512GB có độ phân giải lên đến 32 MP, giúp chụp ảnh tự sướng và gọi video với chất lượng hình ảnh sắc nét."
+    },
+    {
+      "qa_id": "p_dtdd-xiaomi-14_qa_05",
+      "question": "Hệ điều hành nào mà điện thoại Xiaomi 14 5G 512GB sử dụng?",
+      "question_category": "thông số kỹ thuật",
+      "short_answer": "Android 14.",
+      "long_answer": "Điện thoại Xiaomi 14 5G 512GB sử dụng hệ điều hành Android 14, cung cấp trải nghiệm người dùng mượt mà và đa dạng ứng dụng."
+    },
+    {
+      "qa_id": "p_dtdd-xiaomi-14_qa_06",
+      "question": "Dung lượng pin của điện thoại Xiaomi 14 5G 512GB là bao nhiêu?",
+      "question_category": "thông số kỹ thuật",
+      "short_answer": "4610 mAh.",
+      "long_answer": "Dung lượng pin của điện thoại Xiaomi 14 5G 512GB là 4610 mAh, đảm bảo sử dụng thoải mái suốt cả ngày dài."
+    },
+    {
+      "qa_id": "p_dtdd-xiaomi-14_qa_07",
+      "question": "Điện thoại Xiaomi 14 5G 512GB có khả năng chống nước không?",
+      "question_category": "tiện ích",
+      "short_answer": "Có, kháng nước IP68.",
+      "long_answer": "Điện thoại Xiaomi 14 5G 512GB có khả năng chống nước với chuẩn kháng nước IP68, giúp bảo vệ thiết bị khỏi nước và bụi bẩn."
+    },
+    {
+      "qa_id": "p_dtdd-xiaomi-14_qa_08",
+      "question": "Điện thoại Xiaomi 14 5G 512GB hỗ trợ mạng di động nào?",
+      "question_category": "kết nối",
+      "short_answer": "Hỗ trợ 5G.",
+      "long_answer": "Điện thoại Xiaomi 14 5G 512GB hỗ trợ mạng di động 5G, cho tốc độ truy cập internet nhanh và ổn định."
+    }
+  ]
+}

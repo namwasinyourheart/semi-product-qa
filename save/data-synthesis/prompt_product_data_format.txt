@@ -1,0 +1,11 @@
+{
+    "product_id": "<placeholder>",
+    "url": "<placeholder>",
+    "tên sản phẩm": "<placeholder>",
+    "tất cả màu sắc": "<placeholder>",
+    "giá": "<placeholder>",
+    "thông tin chung": "<placeholder>",
+    "thông số kỹ thuật": "<placeholder>",
+    "tiện ích": "<placeholder>",
+    "đánh giá": "<placeholder>"
+}

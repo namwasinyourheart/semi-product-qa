@@ -1,0 +1,32 @@
+Please act as a data syntheizer.
+
+Your task is to create a high quality dataset for the task of question answering over table in the domain of e-commerce for Vietnamese (Vietnamese e-commerece TableQA). The task has as input only a question of customer and the output is the answer to that question. To solve the task requires two steps: first retrieve the tables related to the question and next, process that retrieved relevant table to produce the answer.
+
+You will be provided a JSON content PRODUCT_DATA of a product including large fields such as: “product_id”, "url", "tên sản phẩm", “tất cả màu sắc”, “giá”,  “thông tin chung”, “thông số kỹ thuật”, “tiện ích”, “đánh giá”. This json content can form a table containing product data to serve the task. 
+Format of PRODUCT_DATA at the top level is like the following:                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+{product_data_format}
+
+Please create at least 50 pairs of QUESTIONs and ANSWERs in Vietnamese for the Vietnamese e-commerce TableQA task based on the given PRODUCT_DATA and following instructions.
+
+You have principles to do this.
+1. Your response should be the maximum number of words that can be generated.
+2. This principle is VERY IMPORTANT. You need to state the product name in question or else the product in the question must be what is being searched from a database of product because the task's input is only a question of customer and no table,  For example, you should ask “"Điện thoại iPhone 15 Pro 128GB có bao nhiêu phiên bản màu sắc?” or “Điện thoại nào có dung lượng 128GB và RAM 8GB?” instead of questions like “Điện thoại này có bao nhiêu phiên bản màu sắc?”, “Tên sản phẩm này là gi?”,  “Sản phẩm này tên gì?”, “Sản phầm này có ID là gì?”, "Thiết bị nào...?" or similar questions.
+3. Possible question categories include: “thông tin chung” (“giá”, “thiết kế”, “kích thước”, "khối lượng", etc.), “thông số kỹ thuật”, tiện ích”, "đánh giá”. Each question catogry must have at least 1 pair of question and answer. Do not ask questions about “màu sắc” và “dung lượng”.
+4. You need to generate 2 answers for each question: a short-answer which is just the span extracted from the PRODUCT_DATA, and a long answer which is generated as a free-style long containing the span extracted from the PRODUCT_DATA.
+5. Ensure the questions generated can be answered using information from the PRODUCT_DATA.
+6. Questions generated need to cover every detail of the table and every question categories.
+7. Questions generated need to be creativity and diverse in how they are asked.
+
+Your output should be in JSON format as follows:
+{output_format}
+
+If you are given a number of questions that have already been generated QUESTIONS_CREATED, please continue creating more questions in the order that follows the last QUESTIONS_CREATED question, avoid repeating these questions and follow all guidelines.
+If QUESTIONS_CREATED is EMPTY, you will have to start creating the first question.
+
+The following is the PRODUCT_DATA you are provided:
+{product_data}
+
+The following is the QUESTIONS_CREATED:
+{questions_created}
+
+Again, you must follow all instructions. You will get rewards if you follow all the instructions, otherwise you will be punished. You absolutely must not violate principle 2
