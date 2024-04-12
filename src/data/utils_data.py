@@ -1,12 +1,13 @@
 import os
 import json
+import pandas as pd
 
 import matplotlib.pyplot as plt
 
 PRODUCT_DATA_PATHS = {
-    'phone': 'save/output-scraping-tgdd/product_data/phone_products_20240406_203410.json',
-    'tablet': 'save/output-scraping-tgdd/product_data/tablet_products_20240406_211406.json',
-    'laptop': 'save/output-scraping-tgdd/product_data/laptop_products_20240407_113058.json'
+    'phone': 'data/tgdd_data/products/phone_products_20240406_203410_cleaned.json',
+    'tablet': 'data/tgdd_data/products/tablet_products_20240406_211406_cleaned.json',
+    'laptop': 'data/tgdd_data/products/laptop_products_20240407_113058_cleaned.json'
     }
 
 
@@ -18,13 +19,7 @@ QNA_DIRS = {
 
 }
 
-def load_product_data(product_id, product_data_paths):
-    product_data_dict = get_all_product_data(product_data_paths)
 
-    product_type = product_id.split('-')[0]
-    product_type = product_type_map[product_type]
-
-    return product_data_dict[product_type][product_id]
 
 def get_all_product_data(product_data_paths):
     product_data_dict = {}
@@ -37,6 +32,15 @@ def get_all_product_data(product_data_paths):
                 product_data_dict[product_type][product_id] = product_data
 
     return product_data_dict
+
+def load_product_data(product_id, product_data_dict):
+    # product_data_dict = get_all_product_data(product_data_paths)
+
+    product_type = product_id.split('-')[0]
+    product_type = product_type_map[product_type]
+
+    return product_data_dict[product_type][product_id]
+
 
 product_type_map = {
     'dtdd': 'phone',
