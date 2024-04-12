@@ -1,0 +1,90 @@
+{
+    "product_id": "phone-mobell-rock-4",
+    "url": "https://thegioididong.com/dtdd/mobell-rock-4",
+    "questions": [
+        {
+            "qa_id": "p_phone-mobell-rock-4_qa_01",
+            "question": "Điện thoại Mobell Rock 4 có giá bao nhiêu?",
+            "question_category": "thông tin chung",
+            "short_answer": "690.000₫",
+            "long_answer": "Điện thoại Mobell Rock 4 có giá 690.000₫."
+        },
+        {
+            "qa_id": "p_phone-mobell-rock-4_qa_02",
+            "question": "Thiết kế của Điện thoại Mobell Rock 4 như thế nào?",
+            "question_category": "thông tin chung",
+            "short_answer": "Pin rời, Khung & Mặt lưng nhựa",
+            "long_answer": "Điện thoại Mobell Rock 4 được thiết kế với pin rời và khung & mặt lưng nhựa."
+        },
+        {
+            "qa_id": "p_phone-mobell-rock-4_qa_03",
+            "question": "Điện thoại Mobell Rock 4 có màn hình bao nhiêu inch?",
+            "question_category": "thông số kỹ thuật",
+            "short_answer": "2.4 inch",
+            "long_answer": "Màn hình của Điện thoại Mobell Rock 4 có kích thước 2.4 inch."
+        },
+        {
+            "qa_id": "p_phone-mobell-rock-4_qa_04",
+            "question": "Chip xử lý (CPU) của Điện thoại Mobell Rock 4 là gì?",
+            "question_category": "thông số kỹ thuật",
+            "short_answer": "Unisoc T107",
+            "long_answer": "Điện thoại Mobell Rock 4 sử dụng chip xử lý (CPU) là Unisoc T107."
+        },
+        {
+            "qa_id": "p_phone-mobell-rock-4_qa_05",
+            "question": "Điện thoại Mobell Rock 4 hỗ trợ mạng di động nào?",
+            "question_category": "kết nối",
+            "short_answer": "Hỗ trợ 4G VoLTE",
+            "long_answer": "Điện thoại Mobell Rock 4 hỗ trợ mạng di động 4G VoLTE."
+        },
+        {
+            "qa_id": "p_phone-mobell-rock-4_qa_06",
+            "question": "Dung lượng pin của Điện thoại Mobell Rock 4 là bao nhiêu?",
+            "question_category": "pin & sạc",
+            "short_answer": "3250 mAh",
+            "long_answer": "Điện thoại Mobell Rock 4 có dung lượng pin là 3250 mAh."
+        },
+        {
+            "qa_id": "p_phone-mobell-rock-4_qa_07",
+            "question": "Điện thoại Mobell Rock 4 có khả năng ghi âm không?",
+            "question_category": "tiện ích",
+            "short_answer": "Ghi âm mặc định\nGhi âm cuộc gọi",
+            "long_answer": "Điện thoại Mobell Rock 4 có khả năng ghi âm mặc định và ghi âm cuộc gọi."
+        },
+        {
+            "qa_id": "p_phone-mobell-rock-4_qa_08",
+            "question": "Điện thoại Mobell Rock 4 có hỗ trợ thẻ nhớ tối đa bao nhiêu GB?",
+            "question_category": "thông số kỹ thuật",
+            "short_answer": "64 GB",
+            "long_answer": "Điện thoại Mobell Rock 4 hỗ trợ thẻ nhớ tối đa lên đến 64 GB."
+        },
+        {
+            "qa_id": "p_phone-mobell-rock-4_qa_09",
+            "question": "Điện thoại Mobell Rock 4 có tích hợp tính năng xem phim không?",
+            "question_category": "tiện ích",
+            "short_answer": "3GP",
+            "long_answer": "Điện thoại Mobell Rock 4 có tích hợp tính năng xem phim với định dạng 3GP."
+        },
+        {
+            "qa_id": "p_phone-mobell-rock-4_qa_10",
+            "question": "Điện thoại Mobell Rock 4 được ra mắt vào thời điểm nào?",
+            "question_category": "thông tin chung",
+            "short_answer": "09/2022",
+            "long_answer": "Điện thoại Mobell Rock 4 được ra mắt vào tháng 9 năm 2022."
+        },
+        {
+            "qa_id": "p_phone-mobell-rock-4_qa_11",
+            "question": "Điện thoại Mobell Rock 4 có hỗ trợ kết nối Bluetooth phiên bản nào?",
+            "question_category": "kết nối",
+            "short_answer": "v5.0",
+            "long_answer": "Điện thoại Mobell Rock 4 có hỗ trợ kết nối Bluetooth phiên bản v5.0."
+        },
+        {
+            "qa_id": "p_phone-mobell-rock-4_qa_12",
+            "question": "Điện thoại Mobell Rock 4 có dung lượng lưu trữ là bao nhiêu?",
+            "question_category": "thông số kỹ thuật",
+            "short_answer": "128 MB",
+            "long_answer": "Điện thoại Mobell Rock 4 có dung lượng lưu trữ là 128 MB."
+        }
+    ]
+}
