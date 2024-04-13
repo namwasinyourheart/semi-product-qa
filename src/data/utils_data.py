@@ -3,6 +3,7 @@ import json
 import pandas as pd
 
 import matplotlib.pyplot as plt
+from tqdm import tqdm
 
 PRODUCT_DATA_PATHS = {
     'phone': 'data/tgdd_data/products/phone_products_20240406_203410_cleaned.json',
@@ -23,9 +24,10 @@ QNA_DIRS = {
 def get_all_product_data(product_data_paths):
     product_data_dict = {}
     for product_type, product_path  in product_data_paths.items():
+        print(f"Geting {product_type} products...")
         with open(product_path, 'r', encoding='utf-8') as file:
             product_data_dict[product_type] ={}
-            for line in file:
+            for line in tqdm(file):
                 product_data = json.loads(line)
                 product_id = product_data['product_id']
                 product_data_dict[product_type][product_id] = product_data
