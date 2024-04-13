@@ -3,7 +3,7 @@ import json
 import pandas as pd
 
 import matplotlib.pyplot as plt
-from tqdm import tqdm
+from tqdm.auto import tqdm
 
 PRODUCT_DATA_PATHS = {
     'phone': 'data/tgdd_data/products/phone_products_20240406_203410_cleaned.json',
