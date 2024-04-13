@@ -13,12 +13,11 @@ PRODUCT_DATA_PATHS = {
 
 QNA_DIRS = {
 
-    'phone': 'save/data-synthesis/qna_dtdd__1_20apq_1/20240406',
-    'tablet': 'save/data-synthesis/qna_tablet_1_20apq/20240407',
-    'laptop': 'save/data-synthesis/qna_laptop_1_20apq/20240407'
+    'phone': 'data/tgdd_data/questions_and_answers/phone/cleaned',
+    'tablet': 'data/tgdd_data/questions_and_answers/tablet/cleaned',
+    'laptop': 'data/tgdd_data/questions_and_answers/laptop/cleaned'
 
 }
-
 
 
 def get_all_product_data(product_data_paths):
@@ -37,18 +36,18 @@ def load_product_data(product_id, product_data_dict):
     # product_data_dict = get_all_product_data(product_data_paths)
 
     product_type = product_id.split('-')[0]
-    product_type = product_type_map[product_type]
+    # product_type = product_type_map[product_type]
 
     return product_data_dict[product_type][product_id]
 
 
-product_type_map = {
-    'dtdd': 'phone',
-    'may-tinh-bang': 'tablet',
-    'laptop': 'laptop'
-}
+# product_type_map = {
+#     'dtdd': 'phone',
+#     'may-tinh-bang': 'tablet',
+#     'laptop': 'laptop'
+# }
 
-def load_qna_data(product_id, qna_dir):
+def load_qna_data(product_id, qna_dirs):
 
     def get_qna_path_mapping(qna_dir):
         # Map product_id to its corresponding qa json path
@@ -60,16 +59,24 @@ def load_qna_data(product_id, qna_dir):
             if qna_path.startswith('qna_'):
                 product_id = qna_path.split('_')[1]
                 # print(product_id)
+                if 'dtdd' in product_id:
+                    product_id = product_id.replace('dtdd', 'phone')
+
+                if 'may-tinh-bang' in product_id:
+                    product_id = product_id.replace('may-tinh-bang', 'tablet')
+
+
                 full_path = os.path.join(qna_dir, qna_path)
                 qna_path_mapping[product_id] = full_path
         # assert len(qna_path_mapping) == len(all_qna_paths), print(f'{len(qna_path_mapping)} != {len(all_qna_paths)}')
         return qna_path_mapping
     
     product_type = product_id.split('-')[0]
-    product_type = product_type_map[product_type]
+    # product_type = product_type_map[product_type]
 
-    get_qna_path_mapping = get_qna_path_mapping(qna_dir[product_type])
-    qna_file_path = get_qna_path_mapping[product_id]
+    qna_path_mapping = get_qna_path_mapping(qna_dirs[product_type])
+    qna_file_path = qna_path_mapping[product_id]
+
     if os.path.exists(qna_file_path):
         with open(qna_file_path, 'r', encoding='utf-8') as qna_file:
             qna_data = json.load(qna_file)
@@ -143,21 +150,27 @@ def plot_histogram_qa_counts(qa_counts):
 # plot_histogram_qa_counts(qa_counts)
 
 
-
 def get_qna_path_mapping(qna_dir):
-    # Map product_id to its corresponding qa json path
-    all_qna_paths = [fp for fp in os.listdir(qna_dir) if fp.endswith('.json')]
-    qna_path_mapping = {}
+        # Map product_id to its corresponding qa json path
+        all_qna_paths = [fp for fp in os.listdir(qna_dir) if fp.endswith('.json')]
+        qna_path_mapping = {}
 
-    
-    for qna_path in all_qna_paths:
-        if qna_path.startswith('qna_'):
-            product_id = qna_path.split('_')[1]
-            # print(product_id)
-            full_path = os.path.join(qna_dir, qna_path)
-            qna_path_mapping[product_id] = full_path
-    # assert len(qna_path_mapping) == len(all_qna_paths), print(f'{len(qna_path_mapping)} != {len(all_qna_paths)}')
-    return qna_path_mapping
+        
+        for qna_path in all_qna_paths:
+            if qna_path.startswith('qna_'):
+                product_id = qna_path.split('_')[1]
+                # print(product_id)
+                if 'dtdd' in product_id:
+                    product_id = product_id.replace('dtdd', 'phone')
+
+                if 'may-tinh-bang' in product_id:
+                    product_id = product_id.replace('may-tinh-bang', 'tablet')
+
+
+                full_path = os.path.join(qna_dir, qna_path)
+                qna_path_mapping[product_id] = full_path
+        # assert len(qna_path_mapping) == len(all_qna_paths), print(f'{len(qna_path_mapping)} != {len(all_qna_paths)}')
+        return qna_path_mapping
 
 
 # laptop_qna_path_mapping = get_qna_path_mapping(QNA_DIRS['laptop'])

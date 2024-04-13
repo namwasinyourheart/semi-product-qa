@@ -35,11 +35,12 @@ def clean_product_ids(product_types, qna_dirs, tar_dirs):
                 elif product_type == 'tablet':
                     qna_str = qna_str.replace("'product_id': 'may-tinh-bang-", "'product_id': 'tablet-")
                     qna_str = qna_str.replace('p_may-tinh-bang', 'p_tablet')
+                
+
+                qna_str = qna_str.replace("'questions':", "'questions_answers':")
 
                 qna_str = qna_str.replace('\'', '"')
-                # print(qna_str)
 
-                
                 qna = json.loads(qna_str)
 
                 # Write the updated JSON data to a new file in the target directory
@@ -61,7 +62,7 @@ def clean_product_ids(product_types, qna_dirs, tar_dirs):
 # clean_product_ids(product_types, qna_dirs, tar_dirs)
 
 
-clean_product_ids(product_types, qna_dirs, tar_dirs)
+# clean_product_ids(product_types, qna_dirs, tar_dirs)
 
 def flatten_dict(d, parent_key='', sep=': '):
     items = {}
